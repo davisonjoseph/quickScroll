@@ -1,0 +1,40 @@
+body{position:relative; height:1400px; float:left;}
+.pageScroll-container {
+  background: none repeat scroll 0 0 #000;
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  z-index: 9999;
+}
+.pageScroll-container:hover{padding: 12px 10px;}
+.pageScroll-container i.down-scroll {
+  background: none repeat scroll 0 0 #fff;
+  border-color: #fff #000 #000;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  position: relative;
+  top: 9px;
+  width: 0;
+}
+.pageScroll-container i.up-scroll {
+  background: none repeat scroll 0 0 #fff;
+  border-color: #000 #000 #fff;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  position: relative;
+  top: -16px;
+  width: 0;
+}
+span.scroll_label {
+  padding: 0 10px;
+  position: relative;
+  top: -2px;
+  font-size: 22px;
+}
