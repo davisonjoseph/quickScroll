@@ -1,13 +1,13 @@
 (function($){
 $.fn.pageScroll = function() {
-	var pageScrollContainer = '<div class="pageScroll-container" id="PsScroll"><i class="down-scroll"></i><span class="scroll_label">Scroll down</span></div>';
+	var pageScrollContainer = '<div class="pageScroll-container" id="q_Scroll"><i class="down-scroll"></i><span class="scroll_label">Scroll down</span></div>';
 	var pageScrollDocumentHeight = $(this).css("height");
         var windowHeight = $(window).height();
         var initDocHeight = $(document).height();
         //if(initDocHeight>windowHeight){
 	$("body").append(pageScrollContainer);
         //}
-	$('#PsScroll').on("click",function(){
+	$('#q_Scroll').on("click",function(){
 	    var documentHeight = $(document).height()-windowHeight;
 	    var scroll = $(window).scrollTop();
 	    var DocHalfSize = documentHeight/2;
