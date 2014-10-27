@@ -1,0 +1,41 @@
+.data{height: 1200px;}
+.pageScroll-container {
+  background: none repeat scroll 0 0 #000;
+  bottom: 0;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 10px;
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 9999;
+  opacity:0.8;
+}
+.pageScroll-container:hover{opacity:1;}
+
+.pageScroll-container i.down-scroll {
+  background: none repeat scroll 0 0 #fff;
+  border-color: #fff #000 #000;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  position: relative;
+  top: 13px;
+  width: 0;
+}
+.pageScroll-container i.up-scroll {
+  background: none repeat scroll 0 0 #fff;
+  border-color: #000 #000 #fff;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  position: relative;
+  top: -16px;
+  width: 0;
+}
+span.scroll_label {
+  padding: 0 10px;
+  position: relative;
+  top: -2px;
+}
